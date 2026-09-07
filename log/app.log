@@ -1,0 +1,294 @@
+2026-08-25 09:58:36,962 - INFO - Logging initialized
+2026-08-25 09:59:03,742 - INFO - Logging initialized
+2026-08-25 10:00:25,237 - INFO - Logging initialized
+2026-09-07 15:07:32,393 | INFO | Starting Diabetes Model Training
+2026-09-07 15:07:32,400 | ERROR | Training failed: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\diabetes.csv'
+Traceback (most recent call last):
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\diabetes.py", line 48, in train_diabetes_model
+    df = pd.read_csv(DATASET_PATH)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\diabetes.csv'
+2026-09-07 15:08:36,556 | INFO | Starting Diabetes Model Training
+2026-09-07 15:08:36,559 | ERROR | Training failed: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\diabetes.csv'
+Traceback (most recent call last):
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\diabetes.py", line 48, in train_diabetes_model
+    df = pd.read_csv(DATASET_PATH)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\diabetes.csv'
+2026-09-07 15:14:47,223 | INFO | Starting Diabetes Model Training
+2026-09-07 15:14:47,227 | ERROR | Training failed: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\diabetes.csv'
+Traceback (most recent call last):
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\diabetes.py", line 47, in train_diabetes_model
+    df = pd.read_csv(DATASET_PATH)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\diabetes.csv'
+2026-09-07 15:29:41,087 | INFO | Starting Diabetes Model Training
+2026-09-07 15:29:41,088 | WARNING | Dataset not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\dataset\diabetes.csv
+2026-09-07 15:29:41,091 | WARNING | Found dataset at fallback path: .venv\Dataset\diabetes.csv; using that.
+2026-09-07 15:29:41,140 | INFO | Dataset loaded with shape: (768, 9)
+2026-09-07 15:29:41,395 | INFO | Train shape: (652, 8), Test shape: (116, 8)
+2026-09-07 15:29:41,399 | ERROR | Training failed: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\notebook_dir\\src\\training\\config\\best_hyperparameter.yaml'
+Traceback (most recent call last):
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\diabetes.py", line 100, in train_diabetes_model
+    with open(HYPER_PARAMS_YAML_PATH, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\notebook_dir\\src\\training\\config\\best_hyperparameter.yaml'
+2026-09-07 15:33:15,492 | INFO | Starting Diabetes Model Training
+2026-09-07 15:33:15,494 | WARNING | Dataset not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\dataset\diabetes.csv
+2026-09-07 15:33:15,496 | WARNING | Found dataset at fallback path: .venv\Dataset\diabetes.csv; using that.
+2026-09-07 15:33:15,523 | INFO | Dataset loaded with shape: (768, 9)
+2026-09-07 15:33:15,681 | INFO | Train shape: (652, 8), Test shape: (116, 8)
+2026-09-07 15:33:15,684 | WARNING | Hyperparams file not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\notebook_dir\src\training\config\best_hyperparameter.yaml
+2026-09-07 15:33:16,805 | WARNING | Found hyperparams file at C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\config\best_hyperparams.yaml; using that.
+2026-09-07 15:33:16,814 | ERROR | Training failed: SVC.__init__() got an unexpected keyword argument 'c'
+Traceback (most recent call last):
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\diabetes.py", line 120, in train_diabetes_model
+    model = SVC(
+            ^^^^
+TypeError: SVC.__init__() got an unexpected keyword argument 'c'
+2026-09-07 15:34:35,721 | INFO | Starting Diabetes Model Training
+2026-09-07 15:34:35,721 | WARNING | Dataset not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\dataset\diabetes.csv
+2026-09-07 15:34:35,722 | WARNING | Found dataset at fallback path: .venv\Dataset\diabetes.csv; using that.
+2026-09-07 15:34:35,729 | INFO | Dataset loaded with shape: (768, 9)
+2026-09-07 15:34:35,842 | INFO | Train shape: (652, 8), Test shape: (116, 8)
+2026-09-07 15:34:35,843 | WARNING | Hyperparams file not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\notebook_dir\src\training\config\best_hyperparameter.yaml
+2026-09-07 15:34:36,633 | WARNING | Found hyperparams file at C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\config\best_hyperparams.yaml; using that.
+2026-09-07 15:34:36,880 | INFO | Model training completed
+2026-09-07 15:34:36,957 | INFO | Train Acc: 0.8175 | Recall: 0.8509 | F1: 0.7653
+2026-09-07 15:34:36,974 | INFO | Test  Acc: 0.7500 | Recall: 0.7750 | F1: 0.6813
+2026-09-07 15:34:36,993 | INFO | Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.80      0.85       424
+           1       0.70      0.85      0.77       228
+
+    accuracy                           0.82       652
+   macro avg       0.80      0.83      0.81       652
+weighted avg       0.83      0.82      0.82       652
+
+2026-09-07 15:34:37,016 | INFO | Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.74      0.79        76
+           1       0.61      0.78      0.68        40
+
+    accuracy                           0.75       116
+   macro avg       0.73      0.76      0.74       116
+weighted avg       0.77      0.75      0.76       116
+
+2026-09-07 15:34:37,024 | INFO | Model saved at: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\model_dir\diabetes_prediction_pipeline.joblib
+2026-09-07 15:34:37,024 | INFO | Diabetes Training Completed
+2026-09-07 15:36:14,320 | INFO | Starting Diabetes Model Training
+2026-09-07 15:36:14,323 | WARNING | Dataset not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\dataset\diabetes.csv
+2026-09-07 15:36:14,324 | WARNING | Found dataset at fallback path: .venv\Dataset\diabetes.csv; using that.
+2026-09-07 15:36:14,351 | INFO | Dataset loaded with shape: (768, 9)
+2026-09-07 15:36:14,386 | INFO | Train shape: (652, 8), Test shape: (116, 8)
+2026-09-07 15:36:14,389 | WARNING | Hyperparams file not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\notebook_dir\src\training\config\best_hyperparameter.yaml
+2026-09-07 15:36:15,488 | WARNING | Found hyperparams file at C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\config\best_hyperparams.yaml; using that.
+2026-09-07 15:36:15,697 | INFO | Model training completed
+2026-09-07 15:36:15,856 | INFO | Train Acc: 0.8175 | Recall: 0.8509 | F1: 0.7653
+2026-09-07 15:36:15,879 | INFO | Test  Acc: 0.7500 | Recall: 0.7750 | F1: 0.6813
+2026-09-07 15:36:15,909 | INFO | Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.80      0.85       424
+           1       0.70      0.85      0.77       228
+
+    accuracy                           0.82       652
+   macro avg       0.80      0.83      0.81       652
+weighted avg       0.83      0.82      0.82       652
+
+2026-09-07 15:36:15,933 | INFO | Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.74      0.79        76
+           1       0.61      0.78      0.68        40
+
+    accuracy                           0.75       116
+   macro avg       0.73      0.76      0.74       116
+weighted avg       0.77      0.75      0.76       116
+
+2026-09-07 15:36:15,945 | INFO | Model saved at: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\model_dir\diabetes_prediction_pipeline.joblib
+2026-09-07 15:36:15,945 | INFO | Diabetes Training Completed
+2026-09-07 15:36:40,442 | ERROR | Training Script Failed: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\heart.csv'
+Traceback (most recent call last):
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\heart_disease.py", line 49, in train_model
+    df = pd.read_csv(DATASET_PATH)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\heart.csv'
+2026-09-07 15:37:13,597 | ERROR | Training Script Failed: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\heart.csv'
+Traceback (most recent call last):
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\heart_disease.py", line 49, in train_model
+    df = pd.read_csv(DATASET_PATH)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\heart.csv'
+2026-09-07 15:39:27,149 | ERROR | Training Script Failed: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\heart.csv'
+Traceback (most recent call last):
+  File "C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\heart_disease.py", line 49, in train_model
+    df = pd.read_csv(DATASET_PATH)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\ML-Dr-ml-multi-disease-predictor\\dataset\\heart.csv'
+2026-09-07 15:42:51,300 | WARNING | Dataset not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\dataset\heart.csv
+2026-09-07 15:42:51,302 | WARNING | Found dataset at fallback path: .venv\Dataset\heart.csv; using that.
+2026-09-07 15:42:51,355 | INFO | Dataset loaded with shape: (1025, 14)
+2026-09-07 15:42:51,524 | INFO | Train shape: (869, 13), Test shape: (156, 13)
+2026-09-07 15:42:51,526 | WARNING | Hyperparams file not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\notebook_dir\src\training\config\best_hyperparameter.yaml
+2026-09-07 15:42:53,311 | WARNING | Found hyperparams file at C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\config\best_hyperparams.yaml; using that.
+2026-09-07 15:42:58,772 | INFO | Model training completed
+2026-09-07 15:42:59,965 | INFO | Train Accuracy: 0.9010 | Recall: 0.9431 | F1: 0.9059
+2026-09-07 15:42:59,965 | INFO | Test  Accuracy: 0.8141 | Recall: 0.8966 | F1: 0.8432
+2026-09-07 15:42:59,989 | INFO | Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90       430
+           1       0.87      0.94      0.91       439
+
+    accuracy                           0.90       869
+   macro avg       0.90      0.90      0.90       869
+weighted avg       0.90      0.90      0.90       869
+
+2026-09-07 15:43:00,024 | INFO | Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.71      0.77        69
+           1       0.80      0.90      0.84        87
+
+    accuracy                           0.81       156
+   macro avg       0.82      0.80      0.81       156
+weighted avg       0.82      0.81      0.81       156
+
+2026-09-07 15:43:01,326 | INFO | Model saved to: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\model_dir\heart_disease_prediction_pipeline.joblib
+2026-09-07 15:43:01,327 | INFO | Training Script Completed
+2026-09-07 15:43:16,148 | WARNING | Dataset not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\dataset\heart.csv
+2026-09-07 15:43:16,150 | WARNING | Found dataset at fallback path: .venv\Dataset\heart.csv; using that.
+2026-09-07 15:43:16,191 | INFO | Dataset loaded with shape: (1025, 14)
+2026-09-07 15:43:16,231 | INFO | Train shape: (869, 13), Test shape: (156, 13)
+2026-09-07 15:43:16,233 | WARNING | Hyperparams file not found at configured path: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\notebook_dir\src\training\config\best_hyperparameter.yaml
+2026-09-07 15:43:17,381 | WARNING | Found hyperparams file at C:\Users\HP\ML-Dr-ml-multi-disease-predictor\src\training\config\best_hyperparams.yaml; using that.
+2026-09-07 15:43:22,158 | INFO | Model training completed
+2026-09-07 15:43:23,276 | INFO | Train Accuracy: 0.9010 | Recall: 0.9431 | F1: 0.9059
+2026-09-07 15:43:23,276 | INFO | Test  Accuracy: 0.8141 | Recall: 0.8966 | F1: 0.8432
+2026-09-07 15:43:23,292 | INFO | Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90       430
+           1       0.87      0.94      0.91       439
+
+    accuracy                           0.90       869
+   macro avg       0.90      0.90      0.90       869
+weighted avg       0.90      0.90      0.90       869
+
+2026-09-07 15:43:23,308 | INFO | Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.71      0.77        69
+           1       0.80      0.90      0.84        87
+
+    accuracy                           0.81       156
+   macro avg       0.82      0.80      0.81       156
+weighted avg       0.82      0.81      0.81       156
+
+2026-09-07 15:43:24,209 | INFO | Model saved to: C:\Users\HP\ML-Dr-ml-multi-disease-predictor\model_dir\heart_disease_prediction_pipeline.joblib
+2026-09-07 15:43:24,210 | INFO | Training Script Completed
+2026-09-07 16:30:33,311 | INFO | Loading trained models...
+2026-09-07 16:30:47,967 | INFO | Models loaded successfully.
+2026-09-07 16:30:48,490 | INFO | [diabetes] prediction=0, probability=0.23597196592244382
+2026-09-07 16:30:50,234 | INFO | [heart_disease] prediction=1, probability=0.7361875042820853
+2026-09-07 16:31:47,976 | INFO | Loading trained models...
+2026-09-07 16:31:56,062 | INFO | Models loaded successfully.
+2026-09-07 16:31:56,148 | INFO | [diabetes] prediction=0, probability=0.23597196592244382
+2026-09-07 16:31:57,164 | INFO | [heart_disease] prediction=1, probability=0.7361875042820852
+2026-09-07 16:32:13,516 | INFO | Loading trained models...
+2026-09-07 16:32:17,462 | INFO | Models loaded successfully.
+2026-09-07 16:32:17,490 | INFO | [diabetes] prediction=0, probability=0.23597196592244382
+2026-09-07 16:32:18,291 | INFO | [heart_disease] prediction=1, probability=0.7361875042820852
