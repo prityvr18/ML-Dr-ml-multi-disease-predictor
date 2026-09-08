@@ -292,3 +292,12 @@ weighted avg       0.82      0.81      0.81       156
 2026-09-07 16:32:17,462 | INFO | Models loaded successfully.
 2026-09-07 16:32:17,490 | INFO | [diabetes] prediction=0, probability=0.23597196592244382
 2026-09-07 16:32:18,291 | INFO | [heart_disease] prediction=1, probability=0.7361875042820852
+2026-09-08 15:52:07,905 | INFO | Loading trained models...
+2026-09-08 15:53:10,338 | INFO | Models loaded successfully.
+2026-09-08 16:04:56,130 | INFO | [diabetes] prediction=0, probability=0.23597196592244382
+2026-09-08 16:10:10,918 | INFO | [diabetes] prediction=0, probability=0.23597196592244382
+2026-09-08 16:26:09,084 | INFO | [diabetes] prediction=0, probability=0.23597196592244382
+2026-09-08 16:26:24,015 | INFO | [diabetes] prediction=0, probability=0.23597196592244382
+2026-09-08 16:27:53,012 | INFO | Loading trained models...
+2026-09-08 16:28:00,345 | INFO | Models loaded successfully.
+2026-09-08 16:28:51,128 | INFO | [diabetes] prediction=0, probability=0.23597196592244382
