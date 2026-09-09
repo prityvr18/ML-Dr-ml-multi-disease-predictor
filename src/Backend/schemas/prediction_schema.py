@@ -18,5 +18,6 @@ class PredictionResponse(BaseModel):
     disease: str
     prediction: int
     probability: float
+    
 
     
