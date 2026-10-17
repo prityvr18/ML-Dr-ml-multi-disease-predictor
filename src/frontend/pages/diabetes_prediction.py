@@ -7,17 +7,19 @@ sys.path.append(str(PROJECT_ROOT))
 import requests
 import streamlit as st
 
-from src.frontend.config.settings import Settings
-
-settings = Settings()
-API_URL = settings.api_url
-
+from src.frontend.config.settings import get_api_url
 
 st.set_page_config(
     page_title="Dr.ML - Diabetes Prediction",
     page_icon="🩺",
     layout="centered",
 )
+
+try:
+    API_URL = get_api_url()
+except ValueError as error:
+    st.error(str(error))
+    st.stop()
 
 st.title("🩺 Diabetes Risk Predictor")
 st.write("Enter patient details and click **Predict**")

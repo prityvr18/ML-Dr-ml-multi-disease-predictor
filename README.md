@@ -188,6 +188,17 @@ Example environment values include:
 - `RANDOM_STATE`
 - `API_URL`
 
+For Streamlit Community Cloud, add the backend prediction endpoint in the
+app's **Settings → Secrets**:
+
+```toml
+API_URL = "https://<your-backend-host>/api/predict"
+```
+
+Deploy the FastAPI backend separately and use its public HTTPS address. Do not
+use `localhost` or `127.0.0.1` for a cloud deployment. Locally, the same
+`API_URL` setting can be placed in `.env`.
+
 ## Setup Instructions
 
 1. Clone the repository
