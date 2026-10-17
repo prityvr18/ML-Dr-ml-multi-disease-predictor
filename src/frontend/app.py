@@ -6,21 +6,36 @@ sys.path.append(str(PROJECT_ROOT))
 
 import streamlit as st
 
+from scripts.generate_project_walkthrough import OUTPUT_PATH, generate_walkthrough_pdf
+
 st.set_page_config(
     page_title="DR. ML - Multi-Disease Predictor",
     page_icon="🩺",
-    layout="centered"
+    layout="centered",
 )
 
 st.title("🧠 Dr. ML - Multi-Disease Predictor")
 
 st.write(
-"""
+    """
 Use the left sidebar to navigate:
 - 🩺 Diabetes Risk Predictor
 - ❤️ Heart Disease Risk Predictor
 """
 )
 
-
 st.info("Make sure the FastAPI backend is running before using predictions.")
+
+pdf_path = OUTPUT_PATH
+
+if not pdf_path.exists():
+    generate_walkthrough_pdf(pdf_path)
+
+with open(pdf_path, "rb") as pdf_file:
+    st.download_button(
+        label="📄 Download Project Walkthrough (PDF)",
+        data=pdf_file,
+        file_name="project_walkthrough.pdf",
+        mime="application/pdf",
+        use_container_width=True,
+    )
