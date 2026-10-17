@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit.errors import StreamlitSecretNotFoundError
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -18,7 +17,7 @@ def get_api_url() -> str:
 
     try:
         secret_api_url = st.secrets.get("API_URL")
-    except StreamlitSecretNotFoundError:
+    except FileNotFoundError:
         secret_api_url = None
 
     api_url = secret_api_url or settings.api_url
